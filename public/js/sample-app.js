@@ -26,5 +26,6 @@ define(function(require) {
 	app.factory('SampleMetamodelService', require('metamodel-service'));
 	app.factory('SampleRenderService', require('render-service'));
 	app.factory('SampleEditorService', require('editor-service'));
+        app.factory('SampleRuntimeService', require('runtime-service'));
 	return app;
 });

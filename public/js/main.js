@@ -23,7 +23,7 @@ requirejs.config({
   paths: {
     joint:    '/bower_components/jointjs/dist/joint.min',
     backbone: '/bower_components/backbone/backbone-min',
-    domReady: '/bower_components/domready/domReady',
+    domReady: '/bower_components/domReady/domReady',
     angular:  '/bower_components/angular/angular.min',
     jquery:   '/bower_components/jquery/dist/jquery.min',
     bootstrap:'/bower_components/bootstrap/dist/js/bootstrap.min',
@@ -31,7 +31,8 @@ requirejs.config({
     dagre:    '/bower_components/dagre/dist/dagre.core.min',
     graphlib: '/bower_components/graphlib/dist/graphlib.core.min',
     text :    '/bower_components/text/text',
-    flo :     '/bower_components/spring-flo/dist/spring-flo.min',
+    /* flo :     '/bower_components/spring-flo/dist/spring-flo.min',*/
+    flo :     '/lib/spring-flo/spring-flo',
     json5 :   '/bower_components/json5/lib/json5'
   },
   map: {

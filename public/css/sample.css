@@ -2,12 +2,12 @@
 .header {
 	font-weight: 400;
 	font-family: "Varela Round",sans-serif;
-	font-size: 36px;
+	font-size: 32px;
 	color: #eeeeee;
-	padding: 2px;
+	padding: 4px;
 	background-color: #34302d;
 	border: none;
-	border-top: 4px solid #6db33f;
+	/*border-top: 4px solid #6db33f;*/
 	z-index: 1;
 }
 
@@ -59,6 +59,8 @@ pre {
 	border: 2px solid #6db33f;
 	padding: 5px 20px;
 	text-shadow: none;
+        cursor: pointer; 
+        cursor: hand;
 }
 
 .button span {
