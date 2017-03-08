@@ -7,11 +7,7 @@
         <link href="bower_components/spring-flo/dist/spring-flo.min.css" rel="stylesheet" />
         <link href="css/sample.css" rel="stylesheet" />
         <script data-main="js/main" src="bower_components/requirejs/require.js"></script>
-        <script>
-            function deploy(){
-                console.log( $("#flowText")[0].value.replace(/(?:\r\n|\r|\n)/g, '+'));
-            }
-        </script>
+        
 
     </head>
     <body>
@@ -64,7 +60,6 @@
                               ng-model="definition.text" ng-keyup="flo.scheduleUpdateGraphRepresentation(); $event.stopPropagation();" ng-blur="flo.enableSyncing(true)" ng-focus="flo.enableSyncing(false)"></textarea>
                     
                 </div>
-                <textarea id="flowText" style="width:0;height:0">{{definition.text}}</textarea>
             </flo-editor>
         </div>
     </body>
